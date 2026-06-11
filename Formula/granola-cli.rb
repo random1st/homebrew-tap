@@ -1,24 +1,24 @@
 class GranolaCli < Formula
   desc "CLI client for Granola's official MCP server — meetings, transcripts, and notes"
   homepage "https://github.com/random1st/granola-cli"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/random1st/granola-cli/releases/download/v0.1.1/granola-aarch64-apple-darwin.tar.gz"
-      sha256 "25e045c7179e80557ed064569b0242b9fe715ba4d33eb72d14b969f9f36b71e1"
+      url "https://github.com/random1st/granola-cli/releases/download/v0.1.2/granola-aarch64-apple-darwin.tar.gz"
+      sha256 "b852892844fb6f777e4a2a314c92302d6bd11f7ed455433e7de7f733907bef95"
     end
     on_intel do
-      url "https://github.com/random1st/granola-cli/releases/download/v0.1.1/granola-x86_64-apple-darwin.tar.gz"
-      sha256 "457c0c0261c59a44c8d8ef63c25e573605826e9afcb9d6a7f4acc9ae77ba917c"
+      url "https://github.com/random1st/granola-cli/releases/download/v0.1.2/granola-x86_64-apple-darwin.tar.gz"
+      sha256 "d76e7f6e917d6c3a39bfa65e833bf692c74c1e6cf5e1e93f7f18ea7d1b02701d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/random1st/granola-cli/releases/download/v0.1.1/granola-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "904ca60abda2534fc85077489db750ea2cfb70ccb6394530ea8604d3dfaaf3d5"
+      url "https://github.com/random1st/granola-cli/releases/download/v0.1.2/granola-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "43cf3af9e49548bcb54a334a7a79aaf0e6036948d804d9abb7513eb854f4d01a"
     end
   end
 
