@@ -7,11 +7,11 @@ class GranolaCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/random1st/granola-cli/releases/download/v0.1.1/granola-aarch64-apple-darwin.tar.gz"
-      sha256 "fdac3f3783e52d04b68285d3edf0603fe7e3d07bc164ae90999dc65d78d33419"
+      sha256 "25e045c7179e80557ed064569b0242b9fe715ba4d33eb72d14b969f9f36b71e1"
     end
     on_intel do
       url "https://github.com/random1st/granola-cli/releases/download/v0.1.1/granola-x86_64-apple-darwin.tar.gz"
-      sha256 "db40bdac60f6a97a1e5d9e060e039fcf7af67ec100fd6c8c1764add5e7e1231f"
+      sha256 "457c0c0261c59a44c8d8ef63c25e573605826e9afcb9d6a7f4acc9ae77ba917c"
     end
   end
 
