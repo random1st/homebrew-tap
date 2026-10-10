@@ -1,6 +1,6 @@
 cask "hellcode-app" do
-  version "0.1.0"
-  sha256 "5bafe33193c2baf6a8ca5c25bb0df7a83e0909cfabf76ac015c9a75718c2849d"
+  version "0.1.1"
+  sha256 "0c2d2fcc0c11b5c6fd2c3193ce32a1230bd85523cfb1522965a7e61c3df7b2b5"
 
   url "https://github.com/random1st/hellcode/releases/download/v#{version}/Hellcode-#{version}-macos-arm64.zip"
   name "Hellcode"

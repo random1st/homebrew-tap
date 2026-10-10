@@ -1,8 +1,8 @@
 class Hellcode < Formula
   desc "Native iOS and Android device automation"
   homepage "https://github.com/random1st/hellcode"
-  url "https://github.com/random1st/hellcode/releases/download/v0.1.0/hellcode-0.1.0-macos-arm64.tar.gz"
-  sha256 "a8e76faddf932847b33015e8f1e733e7f1f0d1f76aad2b7f4cff8ec8f00ef933"
+  url "https://github.com/random1st/hellcode/releases/download/v0.1.1/hellcode-0.1.1-macos-arm64.tar.gz"
+  sha256 "7beb2c9c23af95bd72bd3d2f46fdef7dfaac88e4fd613a29c70df84466cffb8a"
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
